@@ -3,3 +3,10 @@ Javascript :
     - programming language of the Web.
     - easy to learn.
 
+Javascript Can Change HTML Content
+    - HTML methods - getElementById()
+    - document.getElementById('demo').innerHTML = 'Hello Javascript';    
+
+Javascript Can Change HTML Attribute Values
+    - For example, Javascript changes the value of the src (source) attribute of an <img> tag.
+    - 
