@@ -1,0 +1,5 @@
+Javascript :
+    - world's most popular programming language.
+    - programming language of the Web.
+    - easy to learn.
+
