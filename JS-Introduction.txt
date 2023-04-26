@@ -9,4 +9,15 @@ Javascript Can Change HTML Content
 
 Javascript Can Change HTML Attribute Values
     - For example, Javascript changes the value of the src (source) attribute of an <img> tag.
-    - 
+
+ Javascript Can Change HTML Styles (CSS)
+    - document.getElementById('demo').style.fontSize = "35px";
+
+Javascript can Hide HTML Elements
+    - Hiding HTML elements can be done by changing the display style:
+         - document.getElementById('demo').style.display = "none";
+
+Javascript can Show HTML Elements
+    - Hiding HTML elements can be done by changing the display style:
+         - document.getElementById('demo').style.display = "block";
+

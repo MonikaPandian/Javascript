@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<body>
+    <!-- Javascript Changes HTML content -->
+    <h2>Display Date and Time</h2>
+    <p id="demo"></p>
+    <button type="button" onclick="document.getElementById('demo').innerHTML= Date()">Click me to display Date and
+        Time.</button>
+
+    <!-- Javascript Changes the HTML attribute values. -->
+    <h2>Javascript can change HTML attribute values.</h2>
+
+    <p>Javascript changes the values of the src (source) attribute of an image.</p>
+
+    <img id="myImage" src="pic_bulboff.gif" style="width:100px">
+    <button onclick="document.getElementById('myImage').src= 'pic_bulbon.gif'">Turn on the light</button>
+    <button onclick="document.getElementById('myImage').src= 'pic_bulboff.gif'">Turn off the light</button>
+
+    <!-- Javascript changes the style of an HTML Element. -->
+    <h2>Javascript can change the style of an HTML element.</h2>
+    <p id="demo1">Javascript can change the style of an HTML element.</p>
+
+    <button type="button" onclick="document.getElementById('demo1').style.fontSize='35px'">Click Me!</button>
+
+    <!-- Javascript can hide HTML Elements -->
+    <h2>Javascript can hide HTML elements.</h2>
+    <p id="demo2">Hello Javascript !</p>
+
+    <button type="button" onclick="document.getElementById('demo2').style.display='none'">Click Me !</button>
+
+    <!-- Javascript can show HTML Elements -->
+    <h2>Javascript can show hidden HTML elements.</h2>
+    <p id="demo3" style="display:none">Hello Javascript !</p>
+
+    <button type="button" onclick="document.getElementById('demo3').style.display='block'">Click Me !</button>
+
+</body>
+
+</html>
