@@ -1,0 +1,32 @@
+Javascript Statements :
+ let x, y, z;
+
+ x = 5;
+ y = 6;
+ z = x + y;
+
+Javascript Programs :
+
+    - A computer program is a list of instructions to be "executed" by a computer.
+    - In a programming language these programming instructions are called statements.
+    - A Javascript program is a list of programming statements.
+
+Javascript Statements :
+    - Javascript statements are composed of:
+    Values, Operators, Expressions, Keywords, and Comments.
+
+Semicolons ;
+    - Semicolons seperate Javascript statements.
+    - Add a semicolon at the end of each executable statement.
+    Examples: 
+    let a, b, c;
+    a = 5;
+    b = 6;
+    c = a + b;
+
+    a = 5; b = 6; c = a + b;
+
+
+
+
+

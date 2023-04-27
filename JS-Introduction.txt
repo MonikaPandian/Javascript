@@ -32,7 +32,25 @@ Javascript Functions and Events :
 Javascript in <head> or <body>:
     - You can place any number of scripts in an HTML document.
     - scripts can be placed in the <body>, or in the <head> section of an HTML page, or in both.
+    - placing scripts at the bottom improves the display speed, because script interpretation slows down the display.
 
+External Javascript :
+    - myScript.js
+
+function myFunction() {
+    document.getElementById("demo").innerHTML = "Paragraph changed.";
+}
+
+External scripts are practical when the same code is used in many different web pages.
+
+Javascript files have the file extension. js.
+
+To use an external script, put the name of the script file in the src attribute of a <script> tag:
+
+Example :
+    without file path : <script src="myScript.js"></script>
+    with file path : <script src="/js/myScript.js"></script>
+    with full URL : <script src="https://www.w3schools.com/js/myScript.js"></script>
 
 
 

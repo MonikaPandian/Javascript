@@ -1,0 +1,21 @@
+Javascript syntax is the set of rules, how Javascript programs are constructed:
+
+creating variables:
+var x;
+var y;
+
+Using variables:
+x = 5;
+y = 6;
+let z = x + y;
+
+Javascript Values :
+    - The Javascript syntax defines two types of values:
+     - Fixed values
+     - Variable values
+
+Fixed values are called Literals.
+Variable values are called Variables.
+
+
+
