@@ -1,0 +1,15 @@
+Javascript comments 
+    - used to explain Javascript code, and to make it more readable.
+    - used to prevent execution, when testing alternative code.
+
+Single Line Comment - //
+
+Multi-line Comment - /* and */
+
+Using Comments to Prevent Execution :
+    - Using comments to prevent execution of code is suitable for code testing.
+    
+
+   
+
+

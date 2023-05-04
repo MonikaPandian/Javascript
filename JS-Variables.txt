@@ -1,0 +1,159 @@
+4 Ways to Declare a Javascript Variable:
+    - var
+    - let
+    - const
+    - nothing
+
+Variables:
+    - Variables are containers for storing data.
+Example :
+var x = 5;
+var y = 6;
+var z = x + y;
+
+var keyword:
+    - var - 1995 to 2015.
+    - let and const - 2015.
+    - If you want your code to run in older browsers, you must use var.
+
+const keyword:
+    - If the value of the variable does not change, use const.
+
+let keyword:
+    - If the value of the variable change, then use let.
+
+JavaScript Identifiers:
+    - All Javascript variables must be identified with unique names.
+    - Javascript identifiers are case-sensitive.
+
+The Assignment Operator :
+    - In Javascript, the equal sign (=) is an assignment operator.
+Equal to operator : ==
+
+Javascript Data Types:
+    - Number
+    - String
+    - Boolean
+    - Undefined
+    - Null
+    - Symbol
+
+Object Datatype:
+    - Object
+    - Array
+    - Date
+
+Examples:
+// Numbers:
+let length = 14;
+
+// Strings:
+let color = "Yellow";
+
+// Booleans:
+let x = true;
+
+// Object:
+const person = {firstName: "John", lastName: "Doe"}
+
+// Array object:
+const cars = ["Saab", "Volvo", "BMW"];
+
+// Date object:
+const date = new Date("2022-03-25");
+
+let x = 16 + "Volvo";
+    when adding a number and a string, Javascript will treat the number as a string.
+
+Javascript Types are Dynamic:
+    - This means that the same variable can be used to hold different data types:
+
+let x; // Now x is Undefined
+x = 5;  // Now x is a Number
+x = "John"; // Now x is a String
+
+JavaScript Strings :
+    - A string is a series of characters like "John Doe".
+    - Strings are written with quotes. You can use single or double quotes:
+    - You can use quotes inside a string, as long as they don't match the quotes surrounding the string:
+Example: 
+let answer1 = "He is called 'Johnny'";
+
+JavaScript Numbers :
+     - All Javascript numbers are stored as decimal numbers (floating point).
+     - Numbers can be written with, or without decimals.
+
+Declaring a Javascript Variable :
+    - creating a variable in Javascript is called "declaring" a variable.
+    -  You declare a Javascript variable with the var or the let keyword.
+
+    - After the declaration, the variable has no value (technically it is undefined).
+
+One Statement, Many Variables :
+    - You can declare many variables in one statement.
+    - Start the statement wit let and seperate the variables by comma :
+    let person = "John Doe", carName = "Volvo", price = 200; 
+
+A declaration can span multiple lines:
+    let person = "John Doe",
+    carName = "Volvo", 
+    price = 200; 
+
+Value = undefined
+    - In computer programs, variables are often declared without a value. 
+    - A variable declared without a value will have the value undefined.
+
+Re-Declaring JavaScript Variables :
+    - If you re-declare a Javascript variable declared with var, it will not lose its value.
+    - The variable carName will still have the value "Volvo" after the execution of these statements:
+Example :
+var carName = "Volvo";
+var carName;
+
+    - You cannot re-declare a variable declared with let or const.
+
+JavaScript Arithmetic :
+    - We can do arithmetic with JavaScript variables, using operators = and + .
+    - For Example : let x = 5 + 2 + 3;
+    - You can also add strings, but strings will be concatenated:
+    - let x = "John" + " " + "Doe";   
+    - If you put a number in quotes, the rest of the numbers will be treated as strings, and concatenated.
+    - let x = 2 + 3 + "5"; 
+    - output : 235
+
+JavaScript Dollar Sign $ :
+    - Since JavaScript treats a dollar sign as a letter, identifiers containing $ are valid variable names.
+
+Example :
+let $ = "Hello World";
+let $$$ = 2;
+let $myMoney = 5;
+
+JavaScript Underscore(_):
+    - Since JavaScript treats underscore as a letter, identifiers containing _ are valid variable names.
+    Example:
+    let _lastName = "Johnson";
+    let _x = 2;
+    let _100 = 5;
+   - Using the underscore is not very common in JavaScript, but a convention among professional programmers is to use it as an alias for "private (hidden)" variables.
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
